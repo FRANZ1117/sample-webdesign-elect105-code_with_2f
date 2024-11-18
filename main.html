@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Main Page</title>
+
+    <style>
+
+        h2 {
+            text-decoration: underline;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            letter-spacing: 2px;
+            text-align: center;
+           color: aliceblue;
+            
+
+        }
+        
+        .picture-content {
+            max-width: 320px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            height: auto;
+            float: left;
+            border: 2px solid rgb(30, 30, 182); 
+            border-radius: 10px;  
+            margin: 10px;
+            
+        }
+
+
+        abbr {
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        button {
+            width: 100%;
+            height: auto;
+            padding: 1em 2em;
+            font-size: 23px;
+            background-color: #ff090900;
+            border: none;
+            border-radius: 1000px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button::after {
+            content:'';
+            position: absolute;
+            height: 107%;
+            width: 102%;
+            border-radius: 1000px;
+            background-image: linear-gradient(to bottom right, rgb(41, 41, 156), rgb(204, 0, 51));
+            z-index: -1;
+            color: blueviolet;
+            
+        }
+
+        button:hover {
+            z-index: 0;
+            box-shadow: 40px 0 100px rgb(0, 0, 255), -40px 0 100px rgb(255, 0, 0);
+            color: #fcdd04;
+            transition: all 2s;
+        }
+
+        .hours-openclose ul li {
+            list-style: circle;
+            text-align: center;
+        }
+
+        
+    
+
+        @media (max-width: 490px) {
+
+            .content h2 {
+                font-size: 20px;
+                margin-left: 60px;
+                margin-top: 30px;
+                padding-top: 30px;
+                padding-left: 30px;
+            }
+
+            .picture-content {
+                width: 100%;
+                height: auto;
+                margin-left: 60px;
+                
+            }
+
+        #about .content p {
+                font-size: 20px;
+                text-align: justify;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="menu-area">
+        <a href="#" class="logo">&lbrace;code&colon;with-2F&semi;&rbrace;</a>
+       
+        <ul class="nav">
+           
+            <li><a href="social-media.html">social media</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="stcast-vmg.html">VMG</a></li>
+
+       
+        </ul>
+        
+    </div>
+    
+    <section id="home">
+        <div class="content">
+            <h1>Welcome adventurer</h1>
+          
+            <a href="#about">
+                <button>GET STARTED</button>
+            </a>
+                
+        </div>
+    </section>
+
+    <section id="about">
+        
+        <div class="content">
+            <img class="picture-content"src="STCAST.jpg">
+            <h2>about section</h2>
+            
+            <br><br>
+            <P>
+                <abbr title="SANTO TOMAS COLLEGE OF AGRICULTURE SCIENCES AND TECHNOLOGY">STCAST</abbr> was founded in 2018 under the administration of former Mayor Daniel Batosalem Jr. The establishment of the local college was perceived to be a hostile takeover in a bid to cease the operation and eventually replace the extension campus of the University of Southeastern Philippines (USEP). 
+
+But the establishment and operation of STCAST that time was marred with irregularities. Whats more appalling was that the national government did not yet subsidize its operation like state-owned Universities and Colleges (SUCs). 
+
+Tuition refunds for USEP coeds, delayed salaries of college teachers, and the flawed STCAST ordinance was among the issues and concerns that highlighted the major mess in STCAST overall operations. 
+
+All these and more prompted the Evangelista administration to take a decisive step to solve the problems in the LGU-owned STCAST since the issues were lingering and were left unresolved during the Batosalem administration. </p>
+
+<p>
+    SANTO TOMAS, Davao del Norte (OCTOBER 15, 2021) Commission on Higher Education (CHED) awarded institutional recognition to the Santo Tomas College of Agriculture, Sciences and Technology &lpar;STCAST&rpar; making it a full-fledged, CHED  recognized local college owned by the Municipal Government of Santo Tomas. 
+
+The formal awarding ceremony dubbed as “Gawad Parangal”, held on October 15, 2021, at Davao del Sur Coliseum, was attended by STCAST President Dr. Diobien C. Flores, Vice President for Academic Affairs Dr. Hazel C. Montepio and Municipal Administrator Atty. Elisa Evangelista- Lapiña. 
+
+They received the Certificate of Eligibility for the Institutional Recognition and the Certificate of Program Compliance (COPC) of the four programs, namely: Bachelor of Public Administration (BPA), Bachelor of Science in Office Administration (BSOA), Bachelor of Technical-Vocational Education (BTVTED) and Bachelor of Science in Agribusiness (BSAB) on the “Gawad Parangal” for Higher Education Institutions (HEIs) in Davao Region on October 15, 2021 at Davao del Sur Coliseum.
+
+No less than CHED Chairman Prospero E. De Vera III and Unified Student Financial Assistance System for Tertiary Education (UniFAST) OIC Executive Director IV Atty. Ryan L. Estevez awarded the Certificate of Eligibility to STCAST President Dr. Diobien C. Flores and Municipal Administrator Atty. Elisa Evangelista- Lapiña who represented Santo Tomas Mayor Ernesto Evangelista on his behalf. 
+</p>
+
+
+        </div>
+    </section>
+
+    <footer>
+    <section id="contact">
+        <div class="content-container">
+            <h2>contact</h2>
+            
+            <p>
+                Address: GJPC+8XQ, Santo Tomas, Davao del Norte <br>
+                Hours Open/Close   
+                <ul>
+                    <li>MONDAY-FRIDAY- 9AM-5PM</li>
+                    <li>SATURDAY-SUNDAY- CLOSE</li>
+                    <li>Phone: 0998 983 1510</li>
+                </ul>
+            </p>
+            
+
+                
+            
+            
+        </div>
+    </section>
+</footer>
+    
+
+</body>
+</html>
+
+    
